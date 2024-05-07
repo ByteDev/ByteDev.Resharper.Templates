@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiveTemplates", "LiveTemplates", "{557D189A-218B-4F4F-89F0-D8FC02B44126}"
 	ProjectSection(SolutionItems) = preProject
@@ -37,7 +37,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{680663
 		src\FileTemplates\CSharp\assemblyinfo.DotSettings = src\FileTemplates\CSharp\assemblyinfo.DotSettings
 		src\FileTemplates\CSharp\builder.DotSettings = src\FileTemplates\CSharp\builder.DotSettings
 		src\FileTemplates\CSharp\exception.DotSettings = src\FileTemplates\CSharp\exception.DotSettings
-		src\FileTemplates\CSharp\nunitclass.DotSettings = src\FileTemplates\CSharp\nunitclass.DotSettings
 		src\FileTemplates\CSharp\simplefactory.DotSettings = src\FileTemplates\CSharp\simplefactory.DotSettings
 		src\FileTemplates\CSharp\testfixture-for-ex.DotSettings = src\FileTemplates\CSharp\testfixture-for-ex.DotSettings
 		src\FileTemplates\CSharp\testfixture.DotSettings = src\FileTemplates\CSharp\testfixture.DotSettings
