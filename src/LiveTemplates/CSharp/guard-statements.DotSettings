@@ -24,4 +24,22 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Field/=PARAM_005FNAME/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Field/=PARAM_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Shortcut/@EntryValue">guard-unhandledenumvalue</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Description/@EntryValue">Guard for unhandle enum in switch</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Text/@EntryValue">default:&#xD;
+	throw new $EXCEPTION_TYPE$($"Unexpected value '{$ENUM_VALUE$}' for enum '{typeof($ENUM_TYPE$).FullName}'.");</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=EXCEPTION_005FTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=EXCEPTION_005FTYPE/Expression/@EntryValue">constant("InvalidOperationException")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=EXCEPTION_005FTYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FVALUE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FVALUE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FTYPE/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
