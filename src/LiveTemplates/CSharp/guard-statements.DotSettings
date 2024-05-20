@@ -1,7 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Shortcut/@EntryValue">guard-isnotnull</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Description/@EntryValue">Guard statement for is not null</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Shortcut/@EntryValue">guard-isnull</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Description/@EntryValue">Guard statement for is null</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Text/@EntryValue">if ($PARAM_NAME$ == null)&#xD;
 	throw new ArgumentNullException(nameof($PARAM_NAME$));$END$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Reformat/@EntryValue">True</s:Boolean>
@@ -13,8 +13,8 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Field/=PARAM_005FNAME/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Shortcut/@EntryValue">guard-isnotnulloremptystring</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Description/@EntryValue">Guard statement for is not null or empty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Shortcut/@EntryValue">guard-isnulloremptystring</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Description/@EntryValue">Guard statement for is null or empty</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Text/@EntryValue">if (string.IsNullOrEmpty($PARAM_NAME$))&#xD;
 	throw new ArgumentException("Value cannot be null or empty.", nameof($PARAM_NAME$));$END$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Reformat/@EntryValue">True</s:Boolean>
