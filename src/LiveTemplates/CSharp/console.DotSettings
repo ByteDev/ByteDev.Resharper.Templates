@@ -6,9 +6,9 @@
 &#xD;
 internal class Program&#xD;
 {&#xD;
-    static void Main(string[] args)&#xD;
+    private static void Main(string[] args)&#xD;
     {&#xD;
-        System.Console.WriteLine("Hello World!");&#xD;
+        System.Console.WriteLine("Hello World!");$END$&#xD;
     }&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Reformat/@EntryValue">True</s:Boolean>
