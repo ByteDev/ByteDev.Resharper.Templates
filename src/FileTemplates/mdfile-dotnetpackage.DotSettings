@@ -1,0 +1,45 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Description/@EntryValue">MD file (.NET package)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Text/@EntryValue"># $PROJECT_NAME$&#xD;
+&#xD;
+$OVERVIEW$&#xD;
+&#xD;
+## Installation&#xD;
+&#xD;
+$PROJECT_NAME$ has been written as a .NET Standard 2.0 library, so you can consume it from a .NET Core or .NET Framework 4.6.1 (or greater) application.&#xD;
+&#xD;
+$PROJECT_NAME$ is hosted as a package on nuget.org.  To install from the Package Manager Console in Visual Studio run:&#xD;
+&#xD;
+`Install-Package $PROJECT_NAME$`&#xD;
+&#xD;
+Further details can be found on the [nuget page](https://www.nuget.org/packages/$PROJECT_NAME$/).&#xD;
+&#xD;
+## Code&#xD;
+&#xD;
+The repo can be cloned from git bash:&#xD;
+&#xD;
+`git clone https://github.com/$GITHUB_USER$/$PROJECT_NAME$`&#xD;
+&#xD;
+## Usage&#xD;
+&#xD;
+```&#xD;
+$CODE_EXAMPLES$&#xD;
+```&#xD;
+$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Reformat/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/CustomProperties/=FileName/@EntryIndexedValue">README</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/CustomProperties/=Extension/@EntryIndexedValue">md</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=PROJECT_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=PROJECT_005FNAME/Expression/@EntryValue">getProjectName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=PROJECT_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=OVERVIEW/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=OVERVIEW/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=GITHUB_005FUSER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=GITHUB_005FUSER/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=CODE_005FEXAMPLES/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=CODE_005FEXAMPLES/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>

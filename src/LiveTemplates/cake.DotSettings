@@ -1,0 +1,250 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Shortcut/@EntryValue">get-arg</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Description/@EntryValue">Get Argument</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Text/@EntryValue">var $ARG_NAME$ = Argument("$ARG_NAME$", "$DEFAULT_VALUE$");</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Field/=ARG_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Field/=ARG_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Field/=DEFAULT_005FVALUE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9CAC7BD817CBF4CBB5ABE4D174CA2C5/Field/=DEFAULT_005FVALUE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Shortcut/@EntryValue">get-env</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Description/@EntryValue">Get Environment variable</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Text/@EntryValue">var $NAME$ = EnvironmentVariable("$ENV_NAME$") ?? "$DEFAULT_VALUE$";</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Field/=ENV_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Field/=ENV_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Field/=NAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Field/=DEFAULT_005FVALUE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1D6622C1BF00EF42971DD924A9314526/Field/=DEFAULT_005FVALUE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Shortcut/@EntryValue">log-debug</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Description/@EntryValue">Log debug message</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Text/@EntryValue">Debug("$MESSAGE$");$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Field/=MESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A13FF77F4A4D24448DE10D1FBC89F867/Field/=MESSAGE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Shortcut/@EntryValue">log-error</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Description/@EntryValue">Log error message</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Text/@EntryValue">Error("$MESSAGE$");$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Field/=MESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F33FF7B4E1CE684D9AF91A4070DE4DE0/Field/=MESSAGE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Shortcut/@EntryValue">log-info</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Description/@EntryValue">Log information message</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Text/@EntryValue">Information("$MESSAGE$");$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Field/=MESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A8B839BB5FDEAD4794C957ECADD683FA/Field/=MESSAGE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Shortcut/@EntryValue">log-verbose</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Description/@EntryValue">Log verbose message</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Text/@EntryValue">Verbose("$MESSAGE$");$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Field/=MESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF4DDB517919414D9E9813A83C04946B/Field/=MESSAGE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Shortcut/@EntryValue">log-warn</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Description/@EntryValue">Log warning message</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Text/@EntryValue">Warning("$MESSAGE$");$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Field/=MESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CD2344FB2EBD4844840953301EB0E22B/Field/=MESSAGE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Shortcut/@EntryValue">pd-addin</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Description/@EntryValue">Preprocessor Directive - Addin</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Text/@EntryValue">#addin nuget:?package=$PACKAGE_NAME$&amp;version=$VERSION$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Field/=PACKAGE_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Field/=PACKAGE_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Field/=VERSION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DF51B85B8EE6AB45AD72F2520DB698B0/Field/=VERSION/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Shortcut/@EntryValue">pd-load-local</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Description/@EntryValue">Preprocessor Directive - Load (local file)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Text/@EntryValue">#load "$CAKE_FILE$"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Field/=CAKE_005FFILE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE257CB21546CE4EACE202E371D2B5E8/Field/=CAKE_005FFILE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Shortcut/@EntryValue">pd-load-nuget</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Description/@EntryValue">Preprocessor Directive - Load (nuget file)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Text/@EntryValue">#load "nuget:?package=$CAKE_FILE$&amp;version=$VERSION$"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Field/=CAKE_005FFILE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Field/=CAKE_005FFILE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Field/=VERSION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=404591207E41574991C4AEF5381B592E/Field/=VERSION/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Shortcut/@EntryValue">pd-tool</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Description/@EntryValue">Preprocessor Directive - Tool</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Text/@EntryValue">#tool nuget:?package=$PACKAGE_NAME$&amp;version=$VERSION$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Field/=PACKAGE_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Field/=PACKAGE_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Field/=VERSION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10B95A13946ED242A39FFF36AC0D0366/Field/=VERSION/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Shortcut/@EntryValue">task</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Description/@EntryValue">Create Task</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Text/@EntryValue">Task("$NAME$")&#xD;
+    .IsDependentOn("$DEPENDENT_NAME$")&#xD;
+    .Does(() =&gt;&#xD;
+    {&#xD;
+        $END$&#xD;
+    });</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Field/=DEPENDENT_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4480CEBED98C34E8A5B2EE7D8C224E1/Field/=DEPENDENT_005FNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Shortcut/@EntryValue">task-criteria</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Description/@EntryValue">Create WithCriteria</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Text/@EntryValue">.WithCriteria($END$)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FA460E084A4084896ED3A475264E163/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Shortcut/@EntryValue">task-onerror</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Description/@EntryValue">Create OnError handler</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Text/@EntryValue">.OnError(ex =&gt;&#xD;
+	{&#xD;
+		$END$&#xD;
+	})</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Categories/=Imported_002014_002F01_002F2020/@EntryIndexedValue">Imported 14/01/2020</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Shortcut/@EntryValue">task-test-int</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Description/@EntryValue">Create integration test task</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Text/@EntryValue">Task("IntegrationTests")&#xD;
+    .IsDependentOn("$DEPENDENT_NAME$")&#xD;
+    .Does(() =&gt;&#xD;
+	{&#xD;
+		var settings = new DotNetCoreTestSettings()&#xD;
+		{&#xD;
+			Configuration = configuration,&#xD;
+			NoBuild = true&#xD;
+		};&#xD;
+&#xD;
+		DotNetCoreIntTests(settings);&#xD;
+	});</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Field/=DEPENDENT_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92349F7FE18B5249A6CC382D1ED574F1/Field/=DEPENDENT_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Shortcut/@EntryValue">task-test-unit</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Description/@EntryValue">Create unit test task</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Text/@EntryValue">Task("UnitTests")&#xD;
+    .IsDependentOn("$$DEPENDENT_NAME$$")&#xD;
+    .Does(() =&gt;&#xD;
+	{&#xD;
+		var settings = new DotNetCoreTestSettings()&#xD;
+		{&#xD;
+			Configuration = configuration,&#xD;
+			NoBuild = true&#xD;
+		};&#xD;
+&#xD;
+		DotNetCoreUnitTests(settings);&#xD;
+	});</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.cake</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Field/=DEPENDENT_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7FDEDB5B1C0DC74AA3EC372D7EEB5B50/Field/=DEPENDENT_005FNAME/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Shortcut/@EntryValue">console-oldstarttemplate</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Description/@EntryValue">Generate old console start template</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Text/@EntryValue">namespace $NAME_SPACE$;&#xD;
+&#xD;
+internal class Program&#xD;
+{&#xD;
+    private static void Main(string[] args)&#xD;
+    {&#xD;
+        System.Console.WriteLine("Hello World!");$END$&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Field/=NAME_005FSPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EF6E1E8CDF4B99469273213CCD496F7C/Field/=NAME_005FSPACE/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

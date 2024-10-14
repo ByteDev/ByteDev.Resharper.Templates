@@ -1,0 +1,129 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Shortcut/@EntryValue">specflowafterscenario</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Description/@EntryValue">SpecFlow After Scenario</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Text/@EntryValue">[TechTalk.SpecFlow.AfterScenario(Order = 0)]&#xD;
+public void AfterScenario()&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8C0DD5BE897F469A1A466A7D20FBB3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Shortcut/@EntryValue">specflowafterstep</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Description/@EntryValue">SpecFlow After Step</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Text/@EntryValue">[TechTalk.SpecFlow.AfterStep]&#xD;
+public void AfterStep()&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=40A2B2B8ED3EF54EBC1720479C253E2F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Shortcut/@EntryValue">specflowaftertestrun</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Description/@EntryValue">SpecFlow After Test Run</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Text/@EntryValue">[TechTalk.SpecFlow.AfterTestRun(Order = 0)]&#xD;
+public void AfterTestRun()&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=643A17CD89CA9B4D91AB09A2333C3110/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Shortcut/@EntryValue">specflowbeforescenario</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Description/@EntryValue">SpecFlow Before Scenario</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Text/@EntryValue">[TechTalk.SpecFlow.BeforeScenario(Order = 0)]&#xD;
+public void BeforeScenario()&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F6568703E67E542BF0DCB06455A08DC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Shortcut/@EntryValue">specflowbeforestep</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Description/@EntryValue">SpecFlow Before Step</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Text/@EntryValue">[TechTalk.SpecFlow.BeforeStep]&#xD;
+public void BeforeStep()&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8C918845D7486D4AA9EC0468E944D2B9/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Shortcut/@EntryValue">specflowbeforetestrun</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Description/@EntryValue">SpecFlow Before Test Run</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Text/@EntryValue">[TechTalk.SpecFlow.BeforeTestRun(Order = 0)]&#xD;
+public void BeforeTestRun()&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B6443047F491241A30B81B4A98E20B8/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Shortcut/@EntryValue">specflowclass</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Description/@EntryValue">SpecFlow Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Text/@EntryValue">[TechTalk.SpecFlow.Binding]&#xD;
+public sealed class $CLASS_NAME$&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Field/=CLASS_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45E93D9D7023EC42B91FFE2539A1B9DB/Field/=CLASS_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Shortcut/@EntryValue">specflowstepsclass</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Description/@EntryValue">SpecFlow Steps Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Text/@EntryValue">[TechTalk.SpecFlow.Binding]&#xD;
+public sealed class $CLASS_NAME$&#xD;
+{&#xD;
+    public $CLASS_NAME$(ScenarioContext scenarioContext)&#xD;
+    {&#xD;
+    }&#xD;
+&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Categories/=specflow/@EntryIndexedValue">specflow</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Field/=CLASS_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=93667914DC38D247A4F5FE6C14B049BA/Field/=CLASS_005FNAME/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

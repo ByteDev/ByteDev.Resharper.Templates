@@ -1,0 +1,39 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Shortcut/@EntryValue">class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Description/@EntryValue">Define class w/ access modifier</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Text/@EntryValue">$ACCESS_MODIFIER$ class $NAME$&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Field/=ACCESS_005FMODIFIER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Field/=ACCESS_005FMODIFIER/Expression/@EntryValue">list("public,internal,private")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Field/=ACCESS_005FMODIFIER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Field/=NAME/Expression/@EntryValue">constant("Class")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EDF40B133FB0804CA5477408B6B3CEEC/Field/=NAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Shortcut/@EntryValue">class-abstract</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Description/@EntryValue">Define abstract class w/ access modifier</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Text/@EntryValue">$ACCESS_MODIFIER$ abstract class $NAME$&#xD;
+{&#xD;
+	$END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Field/=ACCESS_005FMODIFIER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Field/=ACCESS_005FMODIFIER/Expression/@EntryValue">list("public,internal,private")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Field/=ACCESS_005FMODIFIER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Field/=NAME/Expression/@EntryValue">constant("Class")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47766CDB07CC7E47B3BDC3F823534287/Field/=NAME/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

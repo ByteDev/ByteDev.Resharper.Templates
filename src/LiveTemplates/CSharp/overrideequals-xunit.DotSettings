@@ -1,0 +1,89 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Shortcut/@EntryValue">overrideequals-xunit</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Description/@EntryValue">Tests for Overriding Equals</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Text/@EntryValue">public class OverrideEquals&#xD;
+{&#xD;
+	private readonly $TYPE_UNDER_TEST$ _sut;&#xD;
+&#xD;
+	public OverrideEquals()&#xD;
+	{&#xD;
+		_sut = new $TYPE_UNDER_TEST$();&#xD;
+	}&#xD;
+&#xD;
+	[Xunit.Fact]&#xD;
+	public void WhenObjIsNull_ThenReturnFalse()&#xD;
+	{&#xD;
+		var result = _sut.Equals(null as object);&#xD;
+&#xD;
+		result.Should().BeFalse();&#xD;
+	}&#xD;
+&#xD;
+	[Xunit.Fact]&#xD;
+	public void WhenObjReferenceIsSame_ThenReturnTrue()&#xD;
+	{&#xD;
+		object obj = _sut;&#xD;
+&#xD;
+		var result = _sut.Equals(obj);&#xD;
+&#xD;
+		result.Should().BeTrue();&#xD;
+	}&#xD;
+&#xD;
+	[Xunit.Fact]&#xD;
+	public void WhenObjTypeIsNotSame_ThenReturnFalse()&#xD;
+	{&#xD;
+		object obj = "test";&#xD;
+		&#xD;
+		var result = _sut.Equals(obj);&#xD;
+		&#xD;
+		result.Should().BeFalse();&#xD;
+	}&#xD;
+}&#xD;
+		&#xD;
+public class EquatableEquals&#xD;
+{&#xD;
+    private readonly $TYPE_UNDER_TEST$ _sut;&#xD;
+&#xD;
+    public EquatableEquals()&#xD;
+    {&#xD;
+        _sut = new $TYPE_UNDER_TEST$();&#xD;
+    }&#xD;
+&#xD;
+    [Xunit.Fact]&#xD;
+    public void WhenOtherIsNull_ThenReturnFalse()&#xD;
+    {&#xD;
+        var result = _sut.Equals(null as $TYPE_UNDER_TEST$);&#xD;
+        &#xD;
+		result.Should().BeFalse();&#xD;
+    }&#xD;
+&#xD;
+    [Xunit.Fact]&#xD;
+    public void WhenOtherValueIsEqual_ThenReturnTrue()&#xD;
+    {&#xD;
+        var other = new $TYPE_UNDER_TEST$();&#xD;
+		// TODO: make other equal sut&#xD;
+        &#xD;
+		var result = _sut.Equals(other);&#xD;
+		&#xD;
+        result.Should().BeTrue();&#xD;
+    }&#xD;
+	&#xD;
+	[Xunit.Fact]&#xD;
+	public void WhenOtherValueIsNotEqual_ThenReturnFalse()&#xD;
+	{&#xD;
+	    var other = new $TYPE_UNDER_TEST$();&#xD;
+		// TODO: make other not equal sut&#xD;
+        &#xD;
+		var result = _sut.Equals(other);&#xD;
+		&#xD;
+        result.Should().BeFalse();&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Field/=TYPE_005FUNDER_005FTEST/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EC822B2621EE940A0E2F11D4A2FDFD3/Field/=TYPE_005FUNDER_005FTEST/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

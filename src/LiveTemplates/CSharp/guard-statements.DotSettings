@@ -1,0 +1,62 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Shortcut/@EntryValue">guard-arg</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Description/@EntryValue">Guard arg statement</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Text/@EntryValue">if ($CONDITION$)&#xD;
+	throw new ArgumentException("$MESSAGE$", nameof($PARAM_NAME$));$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Field/=CONDITION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Field/=CONDITION/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Field/=PARAM_005FNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Field/=MESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=118E93D378AC7445A20AE8BB2533619F/Field/=MESSAGE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Shortcut/@EntryValue">guard-arg-isnull</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Description/@EntryValue">Guard statement for arg is null</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Text/@EntryValue">if ($PARAM_NAME$ == null)&#xD;
+	throw new ArgumentNullException(nameof($PARAM_NAME$));$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=55CD468EA4D83B4B855E59C1DD577368/Field/=PARAM_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Shortcut/@EntryValue">guard-arg-isnulloremptystring</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Description/@EntryValue">Guard statement for arg is null or empty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Text/@EntryValue">if (string.IsNullOrEmpty($PARAM_NAME$))&#xD;
+	throw new ArgumentException("Value cannot be null or empty.", nameof($PARAM_NAME$));$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A2CB1D13794EB740BF29180C46C96C76/Field/=PARAM_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Shortcut/@EntryValue">guard-switch-unhandledenumvalue</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Description/@EntryValue">Guard for unhandle enum in switch</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Text/@EntryValue">default:&#xD;
+	throw new $EXCEPTION_TYPE$($"Unexpected value '{$ENUM_VALUE$}' for enum '{typeof($ENUM_TYPE$).FullName}'.");</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=EXCEPTION_005FTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=EXCEPTION_005FTYPE/Expression/@EntryValue">constant("InvalidOperationException")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=EXCEPTION_005FTYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FVALUE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FVALUE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46F82CF91A4274469D8F961C8EB3E22F/Field/=ENUM_005FTYPE/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>

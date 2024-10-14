@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiveTemplates", "LiveTemplates", "{557D189A-218B-4F4F-89F0-D8FC02B44126}"
+	ProjectSection(SolutionItems) = preProject
+		src\LiveTemplates\cake.DotSettings = src\LiveTemplates\cake.DotSettings
+		src\LiveTemplates\dotnet-xmldoc.DotSettings = src\LiveTemplates\dotnet-xmldoc.DotSettings
+		src\LiveTemplates\markdown-releasenotes.DotSettings = src\LiveTemplates\markdown-releasenotes.DotSettings
+		src\LiveTemplates\markdown.DotSettings = src\LiveTemplates\markdown.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{4A09F60F-3F80-45E7-8FD3-C988CF3A8857}"
+	ProjectSection(SolutionItems) = preProject
+		src\LiveTemplates\CSharp\builder.DotSettings = src\LiveTemplates\CSharp\builder.DotSettings
+		src\LiveTemplates\CSharp\log4net.DotSettings = src\LiveTemplates\CSharp\log4net.DotSettings
+		src\LiveTemplates\CSharp\override.DotSettings = src\LiveTemplates\CSharp\override.DotSettings
+		src\LiveTemplates\CSharp\overrideequals-xunit.DotSettings = src\LiveTemplates\CSharp\overrideequals-xunit.DotSettings
+		src\LiveTemplates\CSharp\simplefactory.DotSettings = src\LiveTemplates\CSharp\simplefactory.DotSettings
+		src\LiveTemplates\CSharp\specflow.DotSettings = src\LiveTemplates\CSharp\specflow.DotSettings
+		src\LiveTemplates\CSharp\tostring.DotSettings = src\LiveTemplates\CSharp\tostring.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileTemplates", "FileTemplates", "{F6D2146E-E84D-41A2-A40B-1498CEC55A0B}"
+	ProjectSection(SolutionItems) = preProject
+		src\FileTemplates\jsonfile.DotSettings = src\FileTemplates\jsonfile.DotSettings
+		src\FileTemplates\mdfile-dotnetpackage.DotSettings = src\FileTemplates\mdfile-dotnetpackage.DotSettings
+		src\FileTemplates\mdfile.DotSettings = src\FileTemplates\mdfile.DotSettings
+		src\FileTemplates\nuspecfile.DotSettings = src\FileTemplates\nuspecfile.DotSettings
+		src\FileTemplates\textfile.DotSettings = src\FileTemplates\textfile.DotSettings
+		src\FileTemplates\xmlfile.DotSettings = src\FileTemplates\xmlfile.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{68066348-7550-48D1-92E5-4B39B66BE04E}"
+	ProjectSection(SolutionItems) = preProject
+		src\FileTemplates\CSharp\assemblyinfo.DotSettings = src\FileTemplates\CSharp\assemblyinfo.DotSettings
+		src\FileTemplates\CSharp\builder.DotSettings = src\FileTemplates\CSharp\builder.DotSettings
+		src\FileTemplates\CSharp\exception.DotSettings = src\FileTemplates\CSharp\exception.DotSettings
+		src\FileTemplates\CSharp\simplefactory.DotSettings = src\FileTemplates\CSharp\simplefactory.DotSettings
+		src\FileTemplates\CSharp\testfixture-for-ex.DotSettings = src\FileTemplates\CSharp\testfixture-for-ex.DotSettings
+		src\FileTemplates\CSharp\testfixture.DotSettings = src\FileTemplates\CSharp\testfixture.DotSettings
+		src\FileTemplates\CSharp\xunitclass.DotSettings = src\FileTemplates\CSharp\xunitclass.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Powershell", "Powershell", "{C430089A-03FE-4CCD-802E-957B67C151FE}"
+	ProjectSection(SolutionItems) = preProject
+		src\FileTemplates\Powershell\powershellscript.DotSettings = src\FileTemplates\Powershell\powershellscript.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{9296A689-F591-46FB-A810-5E0EF5DEAFCC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting", "{B10CE81C-930D-463E-B2B2-47C509876E6B}"
+	ProjectSection(SolutionItems) = preProject
+		src\LiveTemplates\CSharp\UnitTesting\mstest.DotSettings = src\LiveTemplates\CSharp\UnitTesting\mstest.DotSettings
+		src\LiveTemplates\CSharp\UnitTesting\nunit.DotSettings = src\LiveTemplates\CSharp\UnitTesting\nunit.DotSettings
+		src\LiveTemplates\CSharp\UnitTesting\xunit.DotSettings = src\LiveTemplates\CSharp\UnitTesting\xunit.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A09F60F-3F80-45E7-8FD3-C988CF3A8857} = {557D189A-218B-4F4F-89F0-D8FC02B44126}
+		{68066348-7550-48D1-92E5-4B39B66BE04E} = {F6D2146E-E84D-41A2-A40B-1498CEC55A0B}
+		{C430089A-03FE-4CCD-802E-957B67C151FE} = {F6D2146E-E84D-41A2-A40B-1498CEC55A0B}
+		{B10CE81C-930D-463E-B2B2-47C509876E6B} = {4A09F60F-3F80-45E7-8FD3-C988CF3A8857}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21935666-E45C-4886-ACC6-630D1949B684}
+	EndGlobalSection
+EndGlobal

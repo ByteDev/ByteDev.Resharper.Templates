@@ -1,0 +1,70 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Description/@EntryValue">Exception Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Text/@EntryValue">using System;&#xD;
+using System.Runtime.Serialization;&#xD;
+&#xD;
+namespace $NAME_SPACE$&#xD;
+{&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Represents $SUMMARY_DESCRIPTION$&#xD;
+    /// &lt;/summary&gt;&#xD;
+	[Serializable]&#xD;
+    public class $CLASS_NAME$ : Exception&#xD;
+    {&#xD;
+		/// &lt;summary&gt;&#xD;
+        /// Initializes a new instance of the &lt;see cref="T:$NAME_SPACE$.$CLASS_NAME$" /&gt; class.&#xD;
+        /// &lt;/summary&gt;&#xD;
+        public $CLASS_NAME$() : base("$DEFAULT_MESSAGE$")&#xD;
+        {&#xD;
+        }&#xD;
+				&#xD;
+		/// &lt;summary&gt;&#xD;
+        /// Initializes a new instance of the &lt;see cref="T:$NAME_SPACE$.$CLASS_NAME$" /&gt; class.&#xD;
+        /// &lt;/summary&gt;&#xD;
+		/// &lt;param name="message"&gt;The message that describes the error.&lt;/param&gt;&#xD;
+        public $CLASS_NAME$(string message) : base(message)&#xD;
+        {&#xD;
+        }&#xD;
+&#xD;
+		/// &lt;summary&gt;&#xD;
+        /// Initializes a new instance of the &lt;see cref="T:$NAME_SPACE$.$CLASS_NAME$" /&gt; class.&#xD;
+        /// &lt;/summary&gt;&#xD;
+		/// &lt;param name="message"&gt;The message that describes the error.&lt;/param&gt;&#xD;
+		/// &lt;param name="innerException"&gt;The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.&lt;/param&gt;       &#xD;
+        public $CLASS_NAME$(string message, Exception innerException) : base(message, innerException)&#xD;
+        {&#xD;
+        }&#xD;
+&#xD;
+		/// &lt;summary&gt;&#xD;
+        /// Initializes a new instance of the &lt;see cref="T:$NAME_SPACE$.$CLASS_NAME$" /&gt; class.&#xD;
+        /// &lt;/summary&gt;&#xD;
+        /// &lt;param name="info"&gt;The &lt;see cref="T:System.Runtime.Serialization.SerializationInfo"&gt;&lt;/see&gt; that holds the serialized object data about the exception being thrown.&lt;/param&gt;&#xD;
+        /// &lt;param name="context"&gt;The &lt;see cref="T:System.Runtime.Serialization.StreamingContext"&gt;&lt;/see&gt; that contains contextual information about the source or destination.&lt;/param&gt;&#xD;
+        protected $CLASS_NAME$(SerializationInfo info, StreamingContext context) &#xD;
+			: base(info, context)&#xD;
+        {&#xD;
+        }&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Categories/=Imported_002022_002F06_002F2019/@EntryIndexedValue">Imported 22/06/2019</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/CustomProperties/=FileName/@EntryIndexedValue">Exception</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=NAME_005FSPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=NAME_005FSPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=NAME_005FSPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=NAME_005FSPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=CLASS_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=CLASS_005FNAME/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=CLASS_005FNAME/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=CLASS_005FNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=SUMMARY_005FDESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=SUMMARY_005FDESCRIPTION/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=DEFAULT_005FMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=DEFAULT_005FMESSAGE/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>

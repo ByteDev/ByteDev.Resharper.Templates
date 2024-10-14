@@ -1,0 +1,49 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Shortcut/@EntryValue">overrideequals</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Description/@EntryValue">Override Equals method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Text/@EntryValue">public override bool Equals(object obj)&#xD;
+{&#xD;
+    if (ReferenceEquals(obj, null))&#xD;
+        return false;&#xD;
+&#xD;
+    if (ReferenceEquals(obj, this))&#xD;
+        return true;&#xD;
+&#xD;
+    return Equals(obj as $TYPE$);&#xD;
+}&#xD;
+&#xD;
+public bool Equals($TYPE$ other)&#xD;
+{&#xD;
+    if (other == null)&#xD;
+        return false;&#xD;
+&#xD;
+    // TODO: add equality comparison&#xD;
+	return $END$;&#xD;
+}&#xD;
+&#xD;
+// TODO: mark class as sealed and implementing: IEquatable&lt;$TYPE$&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Field/=TYPE/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Field/=TYPE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2A40947059656543820039F37ECB6E80/Field/=TYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Shortcut/@EntryValue">overridegethashcode</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Description/@EntryValue">Override GetHashCode method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Text/@EntryValue">public override int GetHashCode()&#xD;
+{&#xD;
+    return $END$;&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=578A86855EDE034EA0FC3F1ED525FBD6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String></wpf:ResourceDictionary>

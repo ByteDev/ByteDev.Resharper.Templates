@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Description/@EntryValue">Assembly Info</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Text/@EntryValue">using System.Runtime.CompilerServices;&#xD;
+&#xD;
+[assembly: InternalsVisibleTo("$PROJECT_NAMESPACE$.UnitTests")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/CustomProperties/=FileName/@EntryIndexedValue">Info</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Field/=PROJECT_005FNAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=546A8A2A53F9B84EA8C8D9E49CC1C910/Field/=PROJECT_005FNAMESPACE/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

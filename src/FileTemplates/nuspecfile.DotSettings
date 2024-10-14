@@ -1,0 +1,42 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Description/@EntryValue">Nuspec File</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Text/@EntryValue">&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd"&gt;&#xD;
+  &lt;metadata&gt;&#xD;
+    &lt;id&gt;$ID$&lt;/id&gt;&#xD;
+    &lt;version&gt;0.1.0&lt;/version&gt;&#xD;
+    &lt;title&gt;$ID$&lt;/title&gt;&#xD;
+    &lt;authors&gt;$AUTHOR$&lt;/authors&gt;&#xD;
+    &lt;owners&gt;$AUTHOR$&lt;/owners&gt;&#xD;
+    &lt;requireLicenseAcceptance&gt;false&lt;/requireLicenseAcceptance&gt;&#xD;
+    &lt;description&gt;$DESCRIPTION$&lt;/description&gt;&#xD;
+    &lt;copyright&gt;Copyright $YEAR$&lt;/copyright&gt;&#xD;
+    &lt;tags&gt;$TAGS$&lt;/tags&gt;&#xD;
+    &lt;icon&gt;images\icon.png&lt;/icon&gt;&#xD;
+  &lt;/metadata&gt;&#xD;
+  &lt;files&gt;&#xD;
+    &lt;file src="$ID$\bin\Release\netstandard2.0\$ID$.dll" target="lib\netstandard2.0" /&gt;&#xD;
+    &lt;file src="$ID$\bin\Release\netstandard2.0\$ID$.xml" target="lib\netstandard2.0" /&gt;&#xD;
+    &lt;file src="..\images\icon.png" target="images\" /&gt;&#xD;
+  &lt;/files&gt;&#xD;
+&lt;/package&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Categories/=Imported_002030_002F11_002F2019/@EntryIndexedValue">Imported 30/11/2019</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/CustomProperties/=FileName/@EntryIndexedValue">NewFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/CustomProperties/=Extension/@EntryIndexedValue">nuspec</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=ID/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=ID/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=AUTHOR/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=AUTHOR/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=DESCRIPTION/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=YEAR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=YEAR/Expression/@EntryValue">getCurrentDate("yyyy")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=YEAR/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=YEAR/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=TAGS/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Field/=TAGS/Order/@EntryValue">4</s:Int64></wpf:ResourceDictionary>

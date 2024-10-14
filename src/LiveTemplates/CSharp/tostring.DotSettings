@@ -1,0 +1,35 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Shortcut/@EntryValue">tostring-enumerable-property</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Description/@EntryValue">ToString Enumerable Property</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Text/@EntryValue">private string ToString$PROPERTY_NAME$()&#xD;
+{&#xD;
+	var s = new StringBuilder($"{nameof($PROPERTY_NAME$)}: {{ ");&#xD;
+&#xD;
+	if ($PROPERTY_NAME$ != null &amp;&amp; $PROPERTY_NAME$.Any())&#xD;
+	{&#xD;
+		s.Append($PROPERTY_NAME$.First());&#xD;
+&#xD;
+		foreach (var id in $PROPERTY_NAME$.Skip(1))&#xD;
+		{&#xD;
+			s.Append($", {id}");&#xD;
+		}&#xD;
+&#xD;
+		s.Append(" }");&#xD;
+	}&#xD;
+	else&#xD;
+	{&#xD;
+		s.Append("}");&#xD;
+	}&#xD;
+&#xD;
+	return s.ToString();&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Field/=PROPERTY_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2FCBF1B6E0F5443AC548E2956EE0AFB/Field/=PROPERTY_005FNAME/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

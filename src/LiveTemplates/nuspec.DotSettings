@@ -1,0 +1,33 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Shortcut/@EntryValue">nuspec-dependencies</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Description/@EntryValue">Package dependencies</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Text/@EntryValue">    &lt;dependencies&gt;&#xD;
+      &lt;group targetFramework="$TARGET$" /&gt;$END$&#xD;
+    &lt;/dependencies&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Categories/=Nuspec/@EntryIndexedValue">Nuspec</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.nuspec</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Field/=TARGET/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Field/=TARGET/Expression/@EntryValue">constant(".NETStandard2.0")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5B7A95A045AEE42A34AEAD3D66D089A/Field/=TARGET/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Shortcut/@EntryValue">nuspec-dependency</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Description/@EntryValue">Pacakge dependency</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Text/@EntryValue">        &lt;dependency id="$ID$" version="$VERSION$" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Categories/=Nuspec/@EntryIndexedValue">Nuspec</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.nuspec</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Field/=ID/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Field/=ID/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Field/=VERSION/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Field/=VERSION/Expression/@EntryValue">constant("1.0.0")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DF481DE4E5C0F47A9342C180C6AB77F/Field/=VERSION/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

@@ -1,0 +1,56 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Shortcut/@EntryValue">factory</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Description/@EntryValue">Factory with parameterless create</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Text/@EntryValue">public interface I$modelName$Factory
+{
+    $modelName$ Create();
+}
+
+public class $modelName$Factory : I$modelName$Factory
+{
+    public $modelName$ Create()
+    {
+		return new $modelName$
+		{
+			$END$
+		};
+    }
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Categories/=Imported_002021_002DSep_002D16/@EntryIndexedValue">Imported 21-Sep-16</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Field/=modelName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A70B3442CAF0BB4D8BB566A96B3A0CF2/Field/=modelName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Shortcut/@EntryValue">factoryfor</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Description/@EntryValue">Factory with param create</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Text/@EntryValue">public interface I$modelName$Factory
+{
+    $modelName$ CreateFor($argList$);
+}
+
+public class $modelName$Factory : I$modelName$Factory
+{
+    public $modelName$ CreateFor($argList$)
+    {
+		return new $modelName$
+		{
+			$END$
+		};
+    }
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Field/=modelName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Field/=modelName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Field/=argList/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8FD011D2ABFAED4A868CB3E84C01565F/Field/=argList/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
