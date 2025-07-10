@@ -3,7 +3,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10EDAD1B76F91747BF4B59D67A3183FA/Description/@EntryValue">Test Fixture for Exception</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10EDAD1B76F91747BF4B59D67A3183FA/Text/@EntryValue">using System;&#xD;
 using System.IO;&#xD;
-using System.Runtime.Serialization.Formatters.Binary;&#xD;
+using System.Runtime.Serialization;&#xD;
 using NUnit.Framework;&#xD;
 &#xD;
 namespace $NAMESPACE$&#xD;
@@ -45,23 +45,20 @@ namespace $NAMESPACE$&#xD;
         {&#xD;
             var sut = new $SUT_EXCEPTION_CLASS$(ExMessage);&#xD;
 &#xD;
-            var formatter = new BinaryFormatter();&#xD;
+			var serializer = new DataContractSerializer(typeof($SUT_EXCEPTION_CLASS$));&#xD;
+&#xD;
+            using var stream = new MemoryStream();&#xD;
             &#xD;
-            using (var stream = new MemoryStream())&#xD;
-            {&#xD;
-                formatter.Serialize(stream, sut);&#xD;
+			serializer.WriteObject(stream, sut);&#xD;
+			stream.Seek(0, SeekOrigin.Begin);&#xD;
 &#xD;
-                stream.Seek(0, 0);&#xD;
+            var result = serializer.ReadObject(stream);&#xD;
 &#xD;
-                var result = ($SUT_EXCEPTION_CLASS$)formatter.Deserialize(stream);&#xD;
-&#xD;
-                Assert.That(result.ToString(), Is.EqualTo(sut.ToString()));&#xD;
-            }&#xD;
+            Assert.That(result!.ToString(), Is.EqualTo(sut.ToString()));&#xD;
         }&#xD;
     }&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10EDAD1B76F91747BF4B59D67A3183FA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10EDAD1B76F91747BF4B59D67A3183FA/Categories/=Imported_002015_002F04_002F2020/@EntryIndexedValue">Imported 15/04/2020</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10EDAD1B76F91747BF4B59D67A3183FA/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10EDAD1B76F91747BF4B59D67A3183FA/CustomProperties/=FileName/@EntryIndexedValue">ExceptionTests</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=10EDAD1B76F91747BF4B59D67A3183FA/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
