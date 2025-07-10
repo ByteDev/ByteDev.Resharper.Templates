@@ -273,7 +273,6 @@ Bug fixes:&#xD;
 - $BUG_FIXES$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Categories/=Imported_002005_002F02_002F2020/@EntryIndexedValue">Imported 05/02/2020</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>

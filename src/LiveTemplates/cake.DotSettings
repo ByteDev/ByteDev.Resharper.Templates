@@ -195,7 +195,6 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Categories/=Cake/@EntryIndexedValue">Cake</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Categories/=Imported_002014_002F01_002F2020/@EntryIndexedValue">Imported 14/01/2020</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=70B3F55E56403642B8ADEE8B994B92CA/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>

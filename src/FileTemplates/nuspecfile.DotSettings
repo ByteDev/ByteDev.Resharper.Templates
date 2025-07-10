@@ -21,7 +21,6 @@
     &lt;file src="..\images\icon.png" target="images\" /&gt;&#xD;
   &lt;/files&gt;&#xD;
 &lt;/package&gt;</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/Categories/=Imported_002030_002F11_002F2019/@EntryIndexedValue">Imported 30/11/2019</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/CustomProperties/=FileName/@EntryIndexedValue">NewFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/CustomProperties/=Extension/@EntryIndexedValue">nuspec</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FC175E58090B4648A74F2D9ACF039E1D/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>

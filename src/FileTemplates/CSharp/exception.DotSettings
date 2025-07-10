@@ -49,7 +49,6 @@ namespace $NAME_SPACE$&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Categories/=Imported_002022_002F06_002F2019/@EntryIndexedValue">Imported 22/06/2019</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/CustomProperties/=FileName/@EntryIndexedValue">Exception</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>

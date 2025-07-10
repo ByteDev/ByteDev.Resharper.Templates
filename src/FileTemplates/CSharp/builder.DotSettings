@@ -21,7 +21,6 @@
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/Categories/=Imported_002016_002F08_002F2017/@EntryIndexedValue">Imported 16/08/2017</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/CustomProperties/=FileName/@EntryIndexedValue">TestBuilder</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
