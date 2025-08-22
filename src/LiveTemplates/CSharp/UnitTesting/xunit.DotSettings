@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F34A2BCD33A7504EBFEDFD3B85CF9091/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F34A2BCD33A7504EBFEDFD3B85CF9091/Shortcut/@EntryValue">xunitclassinner</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F34A2BCD33A7504EBFEDFD3B85CF9091/Shortcut/@EntryValue">xunit-classinner</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F34A2BCD33A7504EBFEDFD3B85CF9091/Description/@EntryValue">xUnit Inner Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F34A2BCD33A7504EBFEDFD3B85CF9091/Text/@EntryValue">public class $CLASS_NAME$ : $OUTER_CLASS$&#xD;
 {&#xD;
@@ -18,7 +18,7 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F34A2BCD33A7504EBFEDFD3B85CF9091/Field/=CLASS_005FNAME/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F34A2BCD33A7504EBFEDFD3B85CF9091/Field/=CLASS_005FNAME/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D60AFDB32B14B241B24E463E3B7106C1/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D60AFDB32B14B241B24E463E3B7106C1/Shortcut/@EntryValue">xunitctor</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D60AFDB32B14B241B24E463E3B7106C1/Shortcut/@EntryValue">xunit-ctor</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D60AFDB32B14B241B24E463E3B7106C1/Description/@EntryValue">xUnit Constructor</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D60AFDB32B14B241B24E463E3B7106C1/Text/@EntryValue">private readonly $SUT_TYPE$ _sut;&#xD;
 &#xD;
@@ -40,7 +40,7 @@ public $CLASS_NAME$()&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D60AFDB32B14B241B24E463E3B7106C1/Field/=SUT_005FTYPE/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D60AFDB32B14B241B24E463E3B7106C1/Field/=SUT_005FTYPE/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=04E516A6EE919941A694ACC7AEE6929F/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=04E516A6EE919941A694ACC7AEE6929F/Shortcut/@EntryValue">xunitfact</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=04E516A6EE919941A694ACC7AEE6929F/Shortcut/@EntryValue">xunit-fact</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=04E516A6EE919941A694ACC7AEE6929F/Description/@EntryValue">xUnit Fact</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=04E516A6EE919941A694ACC7AEE6929F/Text/@EntryValue">[Xunit.Fact]&#xD;
 public void When$SCENARIO$_Then$EXPECTED$()&#xD;
@@ -59,7 +59,7 @@ public void When$SCENARIO$_Then$EXPECTED$()&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=04E516A6EE919941A694ACC7AEE6929F/Field/=EXPECTED/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=04E516A6EE919941A694ACC7AEE6929F/Field/=EXPECTED/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=30A9C999CE4894458FC89CC7E8EB6BEB/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=30A9C999CE4894458FC89CC7E8EB6BEB/Shortcut/@EntryValue">xunitfactasync</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=30A9C999CE4894458FC89CC7E8EB6BEB/Shortcut/@EntryValue">xunit-factasync</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=30A9C999CE4894458FC89CC7E8EB6BEB/Description/@EntryValue">xUnit Fact Async</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=30A9C999CE4894458FC89CC7E8EB6BEB/Text/@EntryValue">[Xunit.Fact]&#xD;
 public async System.Threading.Tasks.Task When$SCENARIO$_Then$EXPECTED$()&#xD;
@@ -78,7 +78,7 @@ public async System.Threading.Tasks.Task When$SCENARIO$_Then$EXPECTED$()&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=30A9C999CE4894458FC89CC7E8EB6BEB/Field/=EXPECTED/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=30A9C999CE4894458FC89CC7E8EB6BEB/Field/=EXPECTED/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/Shortcut/@EntryValue">xunitinlinedata</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/Shortcut/@EntryValue">xunit-inlinedata</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/Description/@EntryValue">xUnit Theory Inline Data</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/Text/@EntryValue">[Xunit.InlineData($VALUE$, $EXPECTED$)]</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/Reformat/@EntryValue">True</s:Boolean>
@@ -93,7 +93,7 @@ public async System.Threading.Tasks.Task When$SCENARIO$_Then$EXPECTED$()&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/Field/=EXPECTED/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=807430490B202E49AA0FABF49BE49127/Field/=EXPECTED/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC78FC44A3C8E4419DE6806C10039D91/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC78FC44A3C8E4419DE6806C10039D91/Shortcut/@EntryValue">xunittheory</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC78FC44A3C8E4419DE6806C10039D91/Shortcut/@EntryValue">xunit-theory</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC78FC44A3C8E4419DE6806C10039D91/Description/@EntryValue">xUnit Theory</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC78FC44A3C8E4419DE6806C10039D91/Text/@EntryValue">[Xunit.Theory]&#xD;
 public void When$SCENARIO$_Then$EXPECTED$($TYPE1$ value, $TYPE2$ expected)&#xD;
@@ -116,7 +116,7 @@ public void When$SCENARIO$_Then$EXPECTED$($TYPE1$ value, $TYPE2$ expected)&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC78FC44A3C8E4419DE6806C10039D91/Field/=TYPE1/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CC78FC44A3C8E4419DE6806C10039D91/Field/=TYPE1/Order/@EntryValue">3</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F90D9A725B47B4E80820628A700A880/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F90D9A725B47B4E80820628A700A880/Shortcut/@EntryValue">xunittheoryasync</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F90D9A725B47B4E80820628A700A880/Shortcut/@EntryValue">xunit-theoryasync</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F90D9A725B47B4E80820628A700A880/Description/@EntryValue">xUnit Theory Async</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F90D9A725B47B4E80820628A700A880/Text/@EntryValue">[Xunit.Theory]&#xD;
 public async System.Threading.Tasks.Task When$SCENARIO$_Then$EXPECTED$($TYPE1$ value, $TYPE2$ expected)&#xD;
